@@ -4,77 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chocolate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/normalize.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
-          >SIMPLY CHOCOLATE <img src="./src/img/chocolate-logo.svg" alt="site logo"
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo" href="./index.html"
+          ><span class="header-logo-italic">SIMPLY</span> CHOCOLATE
+          <img src="./src/img/chocolate-logo.svg" alt="site logo"
         /></a>
-        <ul>
-          <li>
-            <a href="">Home</a>
+        <ul class="header-list">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">Home</a>
           </li>
-          <li>
-            <a href="#made">How it’s made?</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#made">How it’s made?</a>
           </li>
-          <li>
-            <a href="">Chocolate is loved</a>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
 
-      <ul>
-        <li>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+      <ul class="header-soc-list">
+        <li class="header-soc-link">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow"
             ><img src="./src/img/social/instagram-logo.svg" alt="instagram logo"
           /></a>
         </li>
-        <li>
-          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+        <li class="header-soc-link">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer nofollow"
             ><img src="./src/img/social/facebook-logo.svg" alt="facebookv logo"
           /></a>
         </li>
-        <li>
-          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"
+        <li class="header-soc-link">
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer nofollow"
             ><img src="./src/img/social/twitter-logo.svg" alt="twitter logo" />
           </a>
         </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <a href="#made">How it’s made</a>
-        <a href="#footer">scroll down</a>
+        <button class="hero-btn" type="button">Buy now</button>
+        <a class="hero-link-btn" href="#made">How it’s made</a>
+        <a class="hero-down-btn" href="#footer">scroll down</a>
       </section>
 
-      <section>
-        <h2 class="visually-hidden" hidden>Advantages</h2>
-        <ul>
-          <li>
-            <h3>Unsurpassed taste</h3>
-            <p>
+      <section class="advantages">
+        <h2 class="visually-hidden">Advantages</h2>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <h3 class="advantages-item-title">Unsurpassed taste</h3>
+            <p class="advantages-item-text">
               Crafted with the finest quality cocoa beans and a dedication to perfection, each bite
               is a decadent experience that simply cannot be matched. Savor the richness and
               complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
-            <h3>Affordable price</h3>
-            <p>
+          <li class="advantages-item">
+            <h3 class="advantages-item-title">Affordable price</h3>
+            <p class="advantages-item-text">
               Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's
               selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate
               bars without sacrificing taste or quality. Browse our selection and indulge in
               affordable luxury today.
             </p>
           </li>
-          <li>
-            <h3>Own production</h3>
-            <p>
+          <li class="advantages-item">
+            <h3 class="advantages-item-title">Own production</h3>
+            <p class="advantages-item-text">
               We take pride in our own production process, ensuring that every step is carefully
               crafted to perfection. From selecting the finest ingredients to handcrafting each
               piece, our attention to detail is evident in every bite.
@@ -84,7 +94,7 @@
       </section>
 
       <section>
-        <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL TASTE SENSATION</h2>
+        <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="orange">TASTE</span> SENSATION</h2>
         <p>
           At Simply Chocolate, we believe that the secret to exceptional chocolate is in the
           details. From the sourcing of the finest ingredients to the careful crafting of each
@@ -157,25 +167,33 @@
       </section>
 
       <section id="made">
-        <h2>hOW IT’S made?</h2>
+        <h2>hOW IT’S <span class="orange">made?</span></h2>
         <img src="./src/img/made-img.jpg" alt="liquid chocolate" width="600" height="400" />
         <b>Try our chocolates today and discover the perfect balance of flavor</b>
         <ul>
           <li>
-            <p>
+            <p class="text" title="my text">
               Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.
             </p>
           </li>
-          <li><p>At the same time, prepare a water bath. Melt the butter on it.</p></li>
           <li>
-            <p>
+            <p class="text" title="my text">
+              At the same time, prepare a water bath. Melt the butter on it.
+            </p>
+          </li>
+          <li>
+            <p class="text" title="my text">
               "Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone
               spatula so that the mass becomes uniform and silky.
             </p>
           </li>
-          <li><p>Heat the mixture over low heat, letting it barely boil.</p></li>
           <li>
-            <p>
+            <p class="text" title="my text">
+              Heat the mixture over low heat, letting it barely boil.
+            </p>
+          </li>
+          <li>
+            <p class="text" title="my text">
               Pour the chocolate into special containers (can be replaced with ice molds). Allow to
               cool and harden.
             </p>
@@ -184,7 +202,7 @@
       </section>
 
       <section>
-        <h2>Our pRODUCTS</h2>
+        <h2>Our <span class="orange">pRODUCTS</span></h2>
         <ul>
           <li>
             <img src="./src/img/products-2/orange.jpg" alt="orange" width="230" />
@@ -242,7 +260,7 @@
       </section>
 
       <section>
-        <h2>tOp Sellers</h2>
+        <h2><span class="orange">tOp</span> Sellers</h2>
         <ul>
           <li>
             <img src="./src/img/sellers/img-1.jpg" alt="CHOCOLATE WITH NUTS" width="368" />
@@ -260,7 +278,7 @@
       </section>
 
       <section>
-        <h2>chocolate is loved</h2>
+        <h2><span class="orange">chocolate</span> is loved</h2>
         <ul>
           <li>
             <img src="./src/img/ppl/ppl-1.png" alt="Victoria Dobrzhanska" />
@@ -291,9 +309,9 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="footer">
       <div>
-        <p>Chocolate a delicious cure for a bad day</p>
+        <p><span class="orange">Chocolate</span> a delicious cure for a bad day</p>
         <p>Social networks</p>
         <ul>
           <li>
