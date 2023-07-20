@@ -6,22 +6,26 @@
     <title>Chocolate</title>
     <link rel="shortcut icon" href="./src/img/logo.svg" type="image/x-icon" />
 
+    <!--! -------------FONTS------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
       rel="stylesheet"
     />
+    <!--! -------------FONTS------------->
 
+    <!--! -------------STYLES------------->
     <link rel="stylesheet" href="./src/css/normalize.css" />
     <link rel="stylesheet" href="./src/css/styles.css" />
+    <!--! -------------STYLES------------->
   </head>
   <body>
     <!--* HEADER SECTION -->
-    <header>
+    <header class="header">
       <nav>
         <a class="header-logo" href="./index.html"
-          ><span class="header-logo-italic">SIMPLY</span> CHOCOLATE
+          ><span class="header-logo-italic">SIMPLY</span>CHOCOLATE
 
           <!--! SVG ICON-->
           <svg
@@ -44,22 +48,27 @@
             />
           </svg>
         </a>
-        <ul class="navigation">
-          <li>
-            <a href="">Home</a>
+        <ul class="header-navigation-list">
+          <li class="header-navigation-item">
+            <a class="header-navigation-link" href="">Home</a>
           </li>
-          <li>
-            <a href="#made">How it's made?</a>
+          <li class="header-navigation-item">
+            <a class="header-navigation-link" href="#made">How it's made?</a>
           </li>
-          <li>
-            <a href="#reviews">Chocolate is loved</a>
+          <li class="header-navigation-item">
+            <a class="header-navigation-link" href="#reviews">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
 
       <ul class="header-social">
         <li class="header-social-item">
-          <a class="header-social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer nofollow">
+          <a
+            class="header-social-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
             <!--! ИКОНКА SVG-->
             <svg
               width="24"
@@ -107,7 +116,12 @@
           </a>
         </li>
         <li class="header-social-item">
-          <a class="header-social-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer nofollow">
+          <a
+            class="header-social-link"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
             <!--! ИКОНКА SVG-->
             <svg
               width="24"
@@ -127,7 +141,12 @@
           </a>
         </li>
         <li class="header-social-item">
-          <a class="header-social-link" href="https://twitter.com/" target="_blank" rel="noopener noreferrer nofollow">
+          <a
+            class="header-social-link"
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+          >
             <!--! ИКОНКА SVG-->
             <svg
               width="24"
@@ -280,82 +299,84 @@
       </section>
 
       <!--? INGRIDIENTS SECTION -->
-      <section class="section">
-        <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="orange">TASTE</span> SENSATION</h2>
-        <p>
+      <section class="ingridients section">
+        <h2 class="ingridients-title">
+          IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="orange">TASTE</span> SENSATION
+        </h2>
+        <p class="ingridients-text">
           At Simply Chocolate, we believe that the secret to exceptional chocolate is in the
           details. From the sourcing of the finest ingredients to the careful crafting of each
           individual piece, every step of our process adds up to one exceptional taste sensation.
         </p>
-        <ul>
-          <li>
-            <a href=""
+        <ul class="ingridients-list">
+          <li class="ingridients-item bcg-orange">
+            <a class="ingridients-link" href=""
               ><img
                 src="./src/img/products/milk-chocolate-min.png"
                 alt="milk chocolate"
                 width="214"
                 height="160"
               />
-              <h3 class="ingridients-title">MILK CHOCOLATE</h3></a
+              <h3 class="ingridients-link-title white">MILK CHOCOLATE</h3></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="ingridients-item bcg-white">
+            <a class="ingridients-link" href=""
               ><img src="./src/img/products/milk-min.png" alt="milk" width="214" height="160" />
-              <h3 class="ingridients-title">MILK</h3></a
+              <h3 class="ingridients-link-title black">MILK</h3></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="ingridients-item bcg-black">
+            <a class="ingridients-link" href=""
               ><img src="./src/img/products/nuts-min.png" alt="nuts" width="214" height="160" />
-              <h3 class="ingridients-title">NUTS</h3></a
+              <h3 class="ingridients-link-title white">NUTS</h3></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="ingridients-item bcg-white">
+            <a class="ingridients-link" href=""
               ><img
                 src="./src/img/products/sweet-chocolate-min.png"
                 alt="sweet chocolate"
                 width="214"
                 height="160"
               />
-              <h3 class="ingridients-title">SEMI - SWEET CHOCOLATE</h3></a
+              <h3 class="ingridients-link-title black">SEMI - SWEET CHOCOLATE</h3></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="ingridients-item bcg-orange">
+            <a class="ingridients-link" href=""
               ><img src="./src/img/products/cacao-min.png" alt="cacao" width="214" height="160" />
-              <h3 class="ingridients-title">CACAO</h3></a
+              <h3 class="ingridients-link-title white">CACAO</h3></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="ingridients-item bcg-white">
+            <a class="ingridients-link" href=""
               ><img
                 src="./src/img/products/rapsberry-min.png"
                 alt="rapsberry"
                 width="214"
                 height="160"
               />
-              <h3 class="ingridients-title">RASPBERRY</h3></a
+              <h3 class="ingridients-link-title black">RASPBERRY</h3></a
             >
           </li>
-          <li>
-            <a href=""
+          <li class="ingridients-item bcg-black">
+            <a class="ingridients-link" href=""
               ><img
                 src="./src/img/products/coconut-oil-min.png"
                 alt="coconut oil"
                 width="214"
                 height="160"
               />
-              <h3 class="ingridients-title">COCONUT OIL</h3></a
+              <h3 class="ingridients-link-title white">COCONUT OIL</h3></a
             >
           </li>
         </ul>
       </section>
 
-      <!--? HOW IT'S MADE SECTION -->
-      <section class="section" id="made">
-        <h2>hOW IT'S <span class="orange">made</span>?</h2>
+      <!--? PROCESS SECTION -->
+      <section class="process section" id="made">
+        <h2 class="process-title">hOW IT'S <span class="orange">made</span>?</h2>
 
         <!--! VIDEO -->
         <video
@@ -367,23 +388,27 @@
           loop
           muted
         ></video>
-        <h3>Try our chocolates today and discover the perfect balance of flavor</h3>
-        <ul>
-          <li>
-            <p>
+        <h3 class="process-list-title">Try our chocolates today and discover the perfect balance of flavor</h3>
+        <ul class="process-list">
+          <li class="process-item">
+            <p class="process-text">
               Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.
             </p>
           </li>
-          <li><p>At the same time, prepare a water bath. Melt the butter on it.</p></li>
+          <li class="process-item">
+            <p class="process-text">At the same time, prepare a water bath. Melt the butter on it.</p>
+          </li>
           <li>
-            <p>
+            <p class="process-text">
               "Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone
               spatula so that the mass becomes uniform and silky.
             </p>
           </li>
-          <li><p>Heat the mixture over low heat, letting it barely boil.</p></li>
+          <li class="process-item">
+            <p class="process-text">Heat the mixture over low heat, letting it barely boil.</p>
+          </li>
           <li>
-            <p>
+            <p class="process-text">
               Pour the chocolate into special containers (can be replaced with ice molds). Allow to
               cool and harden.
             </p>
@@ -468,7 +493,7 @@
           </li>
         </ul>
       </section>
-    
+
       <!--? chocolate is loved SECTION -->
       <section class="section" id="reviews">
         <h2><span class="orange">chocolate</span> is loved</h2>
