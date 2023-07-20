@@ -1,6 +1,23 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -13,60 +30,10 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-address {
-  font-style: normal;
-}
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-h1 {
-  /* color: #FFF; */
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.21; /* 121.429% */
-  letter-spacing: -0.03em;
-}
-h2 {
-  text-transform: uppercase;
-}
 .orange {
   color: #fd9222;
 }
-
-.logo {
-  font-style: italic;
-}
-.logo-link {
-  color: #111;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: -0.03em;
-}
-
-.navigation a {
-  color: #111;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14; /* 114.286% */
-  letter-spacing: -0.02em;
-}
-
-.ingridients-title {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.29; /* 128.571% */
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-}
-
-
-
 
 /** ---------------HEADER------------- */
 
@@ -80,7 +47,13 @@ h2 {
 .header-logo-italic {
   font-style: italic;
 }
-.header-menu-link {
+
+/* .navigation a:hover,
+.navigation a:focus {
+  color: #fd9222;
+} */
+
+.navigation a {
   color: #111;
   font-size: 14px;
   font-weight: 500;
@@ -88,13 +61,14 @@ h2 {
   letter-spacing: -0.02em;
 }
 
-/* .header-menu-link:hover,
-.header-menu-link:focus {
+.navigation a:is(:hover, :focus) {
   color: #fd9222;
-} */
-
-.header-menu-link:is(:hover, :focus) {
-  color: #fd9222;
+}
+.header-social {
+}
+.header-social-item {
+}
+.header-social-link {
 }
 
 /** -------------HEADER------------- */
@@ -102,7 +76,9 @@ h2 {
 /** -------------HERO------------- */
 
 .hero {
-  background-color: rgba(17, 17, 17, 0.6);
+  background-image: url(../img/hero-img.jpg);
+  height: 600px;
+  background-repeat: round;
 }
 .hero-title {
   color: #fff;
@@ -132,25 +108,49 @@ h2 {
 
 /** -------------HERO------------- */
 
-/** -------------ADVANTAGES------------- */
+/** -------------BENEFITS------------- */
 
-.advantages {
+.benefits {
   background-color: #1e1823;
 }
-.advantages-list {
+.benefits-list {
 }
-.advantages-item {
+.benefits-item {
 }
-.advantages-item-title {
+.benefits-item-title {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
 }
-.advantages-item-text {
+.benefits-item-text {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.02em;
 }
 
-/** -------------ADVANTAGES------------- */
+/** -------------BENEFITS------------- */
+
+/** -------------INGRIDIENTS------------- */
+
+.ingridients-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/** -------------INGRIDIENTS------------- */
+
+/** -------------HOW IT'S MADE------------- */
+/** -------------HOW IT'S MADE------------- */
+
+/** -------------REVIEWS------------- */
+/** -------------REVIEWS------------- */
+
+/** -------------TOP SELLERS------------- */
+/** -------------TOP SELLERS------------- */
+
+/** -------------chocolate is loved------------- */
+/** -------------chocolate is loved------------- */
