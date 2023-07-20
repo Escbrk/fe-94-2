@@ -1,0 +1,55 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+h1 {
+  /* color: #FFF; */
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21; /* 121.429% */
+  letter-spacing: -0.03em;
+}
+h2 {
+  text-transform: uppercase;
+}
+.orange {
+  color: #fd9222;
+}
+
+.logo {
+  font-style: italic;
+}
+.logo-link {
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+
+.navigation a {
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.02em;
+}
+
+.ingridients-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
