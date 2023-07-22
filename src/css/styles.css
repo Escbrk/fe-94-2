@@ -1,5 +1,18 @@
+:root {
+	--main-cl: #111111;
+	--accent-cl: #fd9222;
+	--violet-cl: #1e1823;
+	--beige-cl: #fcf1e0;
+	--light-cl: #fafafa;
+	--gray-cl: #4c4c4c;
+	--white-cl: #ffffff;
+  --white-cl-70: #ffffffb3;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: var(--light-cl);
+  color: var(--main-cl);
 }
 
 address {
@@ -41,7 +54,7 @@ button {
 }
 
 .orange {
-  color: #fd9222;
+  color: var(--accent-cl);
 }
 
 /* .section {
@@ -51,7 +64,6 @@ button {
 /** -------------HEADER------------- */
 
 .header-logo {
-  color: #111;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.11;
@@ -71,7 +83,6 @@ button {
 } */
 
 .header-navigation-link {
-  color: #111;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14; /* 114.286% */
@@ -79,7 +90,7 @@ button {
 }
 
 .header-navigation-link:is(:hover, :focus) {
-  color: #fd9222;
+  color: var(--accent-cl);
 }
 
 /* .header-social {
@@ -104,32 +115,32 @@ button {
   background-repeat: round;
 }
 .hero-title {
-  color: #fff;
+  color: var(--white-cl);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.21; /* 121.429% */
   letter-spacing: -0.03em;
 }
 .hero-btn {
-  color: #fff;
+  color: var(--white-cl);
   font-family: inherit;
   font-size: 14px;
   font-weight: 600;
-  background-color: #fd9222;
+  background-color: var(--accent-cl);
   border-radius: 100px;
   border: 1px solid #fd9222;
 }
 .hero-btn:hover {
-  color: #fd9222;
-  background-color: #fcf1e0;
+  color: var(--accent-cl);
+  background-color: var(--beige-cl);
 }
 .hero-link-btn {
-  color: #fff;
+  color: var(--white-cl);
   font-size: 14px;
   font-weight: 600;
 }
 .hero-down-btn {
-  color: #fff;
+  color: var(--white-cl);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29; /* 128.571% */
@@ -141,7 +152,7 @@ button {
 /** -------------BENEFITS------------- */
 
 .benefits {
-  background-color: #1e1823;
+  background-color: var(--violet-cl);
 }
 
 /* .benefits-list {
@@ -153,12 +164,12 @@ button {
 } */
 
 .benefits-item-title {
-  color: #fff;
+  color: var(--white-cl);
   font-size: 18px;
   font-weight: 600;
 }
 .benefits-item-text {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--white-cl-70);
   font-size: 14px;
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.02em;
@@ -195,19 +206,19 @@ button {
 }
 
 .white {
-  color: #fff;
+  color: var(--white-cl);
 }
 .black {
-  color: #111;
+  color: var(--main-cl);
 }
 .bcg-orange {
-  background-color: #fd9222;
+  background-color: var(--accent-cl);
 }
 .bcg-black {
-  background-color: #1e1823;
+  background-color: var(--violet-cl);
 }
 .bcg-white {
-  background-color: #fff;
+  background-color: var(--white-cl);
 }
 
 /** -------------INGRIDIENTS------------- */
@@ -216,14 +227,19 @@ button {
 
 .process {
 }
+.process-video {
+}
+.process-right-side {
+  background-color: var(--white-cl);
+}
 .process-list-title {
-  color: #111;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.33; /* 133.333% */
 }
 .process-list {
   list-style: disc;
-  color: #4c4c4c;
+  color: var(--gray-cl);
 }
 /* .process-item {
 
@@ -231,7 +247,6 @@ button {
 */
 
 .process-text {
-  color: #111;
   font-size: 14px;
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.02em;
@@ -294,17 +309,17 @@ button {
 .reviews-text {
 }
 .reviews-btn {
-  color: #111;
-  background-color: #fff;
+  color: var(--main-cl);
+  background-color: var(--white-cl);
   font-family: inherit;
   font-size: 18px;
   font-weight: 600;
   border-radius: 100px;
-  border: 1px solid #fd9222;
+  border: 1px solid var(--accent-cl);
 }
 .reviews-btn:is(:hover, :focus) {
-  color: #fff;
-  background-color: #fd9222;
+  color: var(--white-cl);
+  background-color: var(--accent-cl);
 }
 
 /** -------------REVIEWS------------- */
@@ -312,10 +327,10 @@ button {
 /** -------------FOOTER------------- */
 
 .footer {
-  background-color: #1e1823;
+  background-color: var(--violet-cl);
 }
 .footer-text {
-  color: #fff;
+  color: var(--white-cl);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.21;
@@ -323,7 +338,7 @@ button {
 }
 .footer-social,
 .address-text {
-  color: #fff;
+  color: var(--white-cl);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29; /* 128.571% */
@@ -333,6 +348,7 @@ button {
 .footer-item {
 }
 .footer-link {
+  
 }
 
 .address {
@@ -342,12 +358,15 @@ button {
 .address-item {
 }
 .address-link {
+  color: var(--white-cl);
 }
 .footer-nav-list {
 }
 .footer-nav-item {
 }
 .footer-nav-link {
+  color: var(--white-cl)
 }
 
 /** -------------FOOTER------------- */
+
