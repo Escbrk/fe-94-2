@@ -1,11 +1,11 @@
 :root {
-	--main-cl: #111111;
-	--accent-cl: #fd9222;
-	--violet-cl: #1e1823;
-	--beige-cl: #fcf1e0;
-	--light-cl: #fafafa;
-	--gray-cl: #4c4c4c;
-	--white-cl: #ffffff;
+  --main-cl: #111111;
+  --accent-cl: #fd9222;
+  --violet-cl: #1e1823;
+  --beige-cl: #fcf1e0;
+  --light-cl: #fafafa;
+  --gray-cl: #4c4c4c;
+  --white-cl: #ffffff;
   --white-cl-70: #ffffffb3;
 }
 
@@ -87,6 +87,7 @@ button {
   font-weight: 500;
   line-height: 1.14; /* 114.286% */
   letter-spacing: -0.02em;
+  color: var(--main-cl);
 }
 
 .header-navigation-link:is(:hover, :focus) {
@@ -97,9 +98,10 @@ button {
 
 } */
 
-/* .header-social-item {
-
-} */
+.header-social-item:hover path,
+.footer-item:hover path {
+  stroke: var(--accent-cl);
+}
 
 /* .header-social-link {
 
@@ -348,7 +350,6 @@ button {
 .footer-item {
 }
 .footer-link {
-  
 }
 
 .address {
@@ -365,8 +366,7 @@ button {
 .footer-nav-item {
 }
 .footer-nav-link {
-  color: var(--white-cl)
+  color: var(--white-cl);
 }
 
 /** -------------FOOTER------------- */
-
